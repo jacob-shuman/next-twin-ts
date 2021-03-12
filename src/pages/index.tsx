@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <>
       <h1 css={tw`p-4 text-4xl font-bold`}>
-        Next.js + Netlify + twin.macro + Typescript
+        Next.js + twin.macro + Typescript
       </h1>
     </>
   );

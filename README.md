@@ -1,17 +1,11 @@
-# next-netlify-twin-ts
+# next-twin-ts
 
 ## Getting Started
-
-Install the [Netlify CLI](https://github.com/netlify/cli) globally:
-
-```bash
-npm i -g netlify-cli
-```
 
 Run the development server:
 
 ```bash
-ntl dev
+npm run dev
 ```
 
 The [tsconfig](tsconfig.json) is automatically setup with paths to the following common folders:
@@ -22,11 +16,11 @@ The [tsconfig](tsconfig.json) is automatically setup with paths to the following
 - `@models/*`
 - `@utils/*`
 
-Your browser will automatically open [http://localhost:8888](http://localhost:8888).
+Your browser will automatically open [http://localhost:3000](http://localhost:3000).
 
 ## API Routes
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:8888/api/hello](http://localhost:8888/api/hello). This endpoint can be edited in `src/pages/api/hello.ts`.
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `src/pages/api/hello.ts`.
 
 The `src/pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
